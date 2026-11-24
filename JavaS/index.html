@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+   <form>
+       <label for="iptNome">Nome:</label>
+       <input type="text" id="iptNome"><br>
+       <button type="button" id="btnMostrar" onclick="mostrar()">Mostrar</button>
+       <button type="button" id="btnApagar" onclick="limpar()">Apagar</button>
+        <span id="spnMsg"></span>
+    
+   </form>
+   <fieldset>
+    <legend>Operações</legend>
+    <label for="iptX">x:</label>
+       <input type="number" id="iptX"><br>
+
+       <label for="iptY">y:</label>
+       <input type="number" id="iptY"><br>
+         <!-- <button type="button" id="btnSomar" onclick="Somar()">Somar</button> -->
+         <button type="button" id="btnSomar" onclick="calcular(0)">Somar</button>
+        <button type="button" id="btnSubtrair" onclick="calcular(1)">Subtrair</button>
+         <span id="spnRes"></span>
+        
+    </fieldset>
+   
+   
+        
+</body>
+</html>
